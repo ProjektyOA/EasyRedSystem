@@ -20,5 +20,14 @@ public class Redaktor extends RegUzivBezPlatu {
      return new Clanek(nadpis, text);   
     }       
   
-    
+    @Override
+     public void smazClanek(Clanek c)
+      {
+       if(this.equals(c.getAutor()))
+       {
+        System.out.println("Smazal jsem článek, protože jsem jeho autor");
+       } else {
+               System.out.println("Nemůžu smazat cizí článek");
+              }
+      }       
 }
