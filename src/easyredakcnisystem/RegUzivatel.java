@@ -36,6 +36,6 @@ public class RegUzivatel {
     
     public void smazClanek(Clanek c)
     {
-    
+     System.out.println("Nemáte oprávnění smazat článek");
     }       
 }

@@ -33,4 +33,8 @@ public class Admin extends RegUzivatel{
      System.out.println("Smazal jsem "+u.getJmeno());
     }       
  
+     public void smazClanek(Clanek c)
+     {
+      System.out.println("Smazal jsem článek, protože jsem admin");
+     }
 }
